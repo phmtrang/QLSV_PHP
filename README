@@ -1,1 +1,12 @@
  QLSV_PHP
+- ngôn ngữ chính sử dụng php, html, css, js, framework bootstrap
+- ide sử dụng phpstorm, mysql làm DB
+- Các chức năng đăng nhập (chưa bắt session cho user)
+- Trang quản lý có các chức năng: thêm sửa xóa tin tức, thêm sửa xóa tìm kiếm sinh viên, thống kê sinh viên học bổng, thống kê sinh viên nợ học phí, đã đóng học phí.
+- sủa thông tin tin tức ở file suatintuc.php, thêm mới ở upload.php, xóa ở file tintuc.php
+- sửa thông tin sinh viên và thêm mới thông tin ở them_suaSV.php, xóa và hiển thị, tìm kiếm, sắp xếp ở file sv
+- thống kê học phí ở file hocphi.php. có chức năng check complete, lọc theo đã hoàn thành đóng học phí hoặc chưa hoàn thành, tìm kiếm theo tên
+- thống kê danh sách sinh viên đạt học bổng với mức cpa tối thiểu nhập vào và số lượng sinh viên nhập vào. mặc định là 2.5 và 5 sinh viên
+- thêm xóa môn học(?)
+- Các chức năng khác vẫn chưa hoàn thiện (tạo lớp tín chỉ, tính điểm trung bình, tình học phí từ số tín chỉ đki,...)
+- tạo DB _ qlsv (ko có file .sql đi kèm)
